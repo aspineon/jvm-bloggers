@@ -1,4 +1,5 @@
-FROM iron/java:1.8
+FROM davidcaste/alpine-java-unlimited-jce:jdk8
+
 MAINTAINER t dziurko at g mail dooot com
 VOLUME /tmp
 EXPOSE 8080
